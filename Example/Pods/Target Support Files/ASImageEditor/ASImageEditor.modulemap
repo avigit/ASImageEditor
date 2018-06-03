@@ -1,0 +1,6 @@
+framework module ASImageEditor {
+  umbrella header "ASImageEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}

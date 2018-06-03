@@ -1,0 +1,16 @@
+PODS:
+  - ASImageEditor (0.1.0)
+
+DEPENDENCIES:
+  - ASImageEditor (from `../`)
+
+EXTERNAL SOURCES:
+  ASImageEditor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASImageEditor: cada423b049fea064cb1537a2b28fbfe873d546b
+
+PODFILE CHECKSUM: 8f8bf330c8c98946c26263c3d74fd1ca67270569
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,22 @@
+{
+  "name": "ASImageEditor",
+  "version": "0.1.0",
+  "summary": "A short description of ASImageEditor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Avigit Saha/ASImageEditor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Avigit Saha": "me@avigit.com"
+  },
+  "source": {
+    "git": "https://github.com/Avigit Saha/ASImageEditor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASImageEditor/Classes/**/*"
+}
