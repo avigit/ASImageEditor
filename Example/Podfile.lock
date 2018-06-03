@@ -1,5 +1,5 @@
 PODS:
-  - ASImageEditor (0.1.0)
+  - ASImageEditor (1.0.0)
 
 DEPENDENCIES:
   - ASImageEditor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASImageEditor: cada423b049fea064cb1537a2b28fbfe873d546b
+  ASImageEditor: 6ed84e557f09db7dee99fdedd0fc994684a4f7c6
 
 PODFILE CHECKSUM: 8f8bf330c8c98946c26263c3d74fd1ca67270569
 

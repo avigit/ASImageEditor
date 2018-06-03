@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FD9F2EF2B951FC8B6FF677C562782C8 /* ASImageEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DE1FDB75931840A04F39749AE95025 /* ASImageEditor-dummy.m */; };
-		33633008C296EECBE380700C8DFD4A13 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A0A595645C9027FED570A11D21745 /* ReplaceMe.swift */; };
+		1118A4213B453A554FD74574FAC41A6A /* CropCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A848FECF0842880D71D1F574DA011FD /* CropCornerView.swift */; };
+		30712B320F50C6CE59143DEE09F01EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3743CAB0E1A2EB709081A3145851BEB3 /* Pods-ASImageEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F278678BEC96B8673D71987A1612AD9 /* Pods-ASImageEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		407AB68223908A343363841A0D404496 /* ASImageCropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB113453253D010DD8D18760A9CD292F /* ASImageCropperViewController.swift */; };
+		4AE72AE14418234711BBFBBC7EB356BA /* ASImageEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAA8DF3BC0454403EEC1FC3FD047E86 /* ASImageEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC0E36EF34005A8471A71E5B19C09BC /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541491737D01EFB62B6DCC4347981FDD /* UIImage.swift */; };
 		695BCC5727284E38EA7ACFEADE02B13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		697C98BC7B185F640E550970B3EDDF1D /* ASImageCropperViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = A29557051C0FD74BF1CE9F060B028C19 /* ASImageCropperViewController.xib */; };
 		74262D837608677577BADFEDB8D3B21E /* Pods-ASImageEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CBCB954B50AC43B6CEF770AC81BBB /* Pods-ASImageEditor_Tests-dummy.m */; };
 		885949B7069763E45A415ECB55776CDD /* Pods-ASImageEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1CF02E151F39152BEA4BFEA3C356A /* Pods-ASImageEditor_Example-dummy.m */; };
 		8C3FEC61935AEB912FFD4DD455500034 /* Pods-ASImageEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6888AF0E23843EA45113FEDBECFF44 /* Pods-ASImageEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C15FF1BE59F955FAEDE3435CCB6EF31B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ED160587C071251CA81B07DD7AEE0F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F258B96D7951DB70A466F3238309E7FD /* ASImageEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAF2B2DB622FFE32717D1E56DCEB3C8 /* ASImageEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69C40A919104FA200A391F325FFCCA7 /* ASImageEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AE1A25D1260E7840BBD7426ABC1E2 /* ASImageEditor-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,52 +27,55 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89940B5348F524E645723EC767005AB3;
+			remoteGlobalIDString = F9BA3913FE69AB1283641D1A711424B0;
 			remoteInfo = ASImageEditor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03015C72EBB3FF9D651683C60809872D /* ASImageEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASImageEditor.framework; path = ASImageEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAA8DF3BC0454403EEC1FC3FD047E86 /* ASImageEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASImageEditor-umbrella.h"; sourceTree = "<group>"; };
+		1A848FECF0842880D71D1F574DA011FD /* CropCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CropCornerView.swift; sourceTree = "<group>"; };
 		207D59ABBB7197F72AB13720E55D7CE4 /* Pods-ASImageEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ASImageEditor_Tests.modulemap"; sourceTree = "<group>"; };
+		2846E2DDD5A916E3FBBA0F06C6A2E288 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE7A82CFA33451C4B328C8E1AA98EDF /* Pods-ASImageEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASImageEditor_Tests-resources.sh"; sourceTree = "<group>"; };
 		3B46BD29475F6E536E8334BC7AB342C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6888AF0E23843EA45113FEDBECFF44 /* Pods-ASImageEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASImageEditor_Example-umbrella.h"; sourceTree = "<group>"; };
 		3C9D0FD63C0DC1CAFB6FE838E04B8A19 /* Pods_ASImageEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASImageEditor_Tests.framework; path = "Pods-ASImageEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4557EF0E25DB2224F053DF817B717D39 /* Pods-ASImageEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASImageEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49DE1FDB75931840A04F39749AE95025 /* ASImageEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASImageEditor-dummy.m"; sourceTree = "<group>"; };
-		5511D34D2139B2CB25A5338A6351A0B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541491737D01EFB62B6DCC4347981FDD /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		575CBCB954B50AC43B6CEF770AC81BBB /* Pods-ASImageEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASImageEditor_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E665C8E4C6524A0BE18620E76909CD0 /* ASImageEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASImageEditor.xcconfig; sourceTree = "<group>"; };
 		605B39D9DE50AC5FF33703B68C9EF4FA /* Pods-ASImageEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASImageEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		608B8D388D79DEAD9EC6271BFAB78FAE /* Pods-ASImageEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASImageEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61091CA9D5ECDD6117714786E4434136 /* Pods-ASImageEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASImageEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		63E2C97A1CA1AB263A481B5C3E98351B /* ASImageEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASImageEditor.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CFB938B8B0B5936CA536A1282282C89 /* Pods-ASImageEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ASImageEditor_Example.modulemap"; sourceTree = "<group>"; };
 		7AA1CF02E151F39152BEA4BFEA3C356A /* Pods-ASImageEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASImageEditor_Example-dummy.m"; sourceTree = "<group>"; };
-		7B9A0A595645C9027FED570A11D21745 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ASImageEditor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		7BAF2B2DB622FFE32717D1E56DCEB3C8 /* ASImageEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASImageEditor-umbrella.h"; sourceTree = "<group>"; };
 		84B7E9AA01DEB115A6D5201EBECEB781 /* Pods-ASImageEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASImageEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		89E9FE91F5551C628F6FE8EFBE9629C9 /* ASImageEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASImageEditor-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F278678BEC96B8673D71987A1612AD9 /* Pods-ASImageEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASImageEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A29557051C0FD74BF1CE9F060B028C19 /* ASImageCropperViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ASImageCropperViewController.xib; sourceTree = "<group>"; };
 		A9E243127816F5A5B13B3C0638315E78 /* Pods-ASImageEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASImageEditor_Example-resources.sh"; sourceTree = "<group>"; };
+		AB113453253D010DD8D18760A9CD292F /* ASImageCropperViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASImageCropperViewController.swift; sourceTree = "<group>"; };
 		AF339E0D7AD6761CE5A30585B5426040 /* Pods-ASImageEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASImageEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AFF97E75AFEA3CEBACD5BF6192BAF50C /* ASImageEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASImageEditor-prefix.pch"; sourceTree = "<group>"; };
+		B8F8A1E2E3ACADED88156DEBF3E28A1F /* ASImageEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASImageEditor.xcconfig; sourceTree = "<group>"; };
 		BB0C0CE229CB2EEB42721AF1346A3CCB /* Pods_ASImageEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASImageEditor_Example.framework; path = "Pods-ASImageEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C851A8E41044A6A9B71AA9AD86E0CD46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29B634F7BF7A52D9AEC307B4566DAA0 /* ASImageEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASImageEditor.modulemap; sourceTree = "<group>"; };
 		E50A54D5FA562DA287CF9C73388BA77E /* Pods-ASImageEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASImageEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7B56335EDD9AA040F6C5411774E37AA /* Pods-ASImageEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASImageEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F48AE1A25D1260E7840BBD7426ABC1E2 /* ASImageEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASImageEditor-dummy.m"; sourceTree = "<group>"; };
 		F8BBDD829F3D11193222E6DA1B6FEF37 /* Pods-ASImageEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASImageEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE12A5A18CD864040C3D8C39F88EA78E /* Pods-ASImageEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASImageEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		567725FB8DE215D01C6A93DF20872175 /* Frameworks */ = {
+		2A375CCCC9E2E5069B01688FD5D2FAEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED160587C071251CA81B07DD7AEE0F3F /* Foundation.framework in Frameworks */,
+				30712B320F50C6CE59143DEE09F01EE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +98,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F91792ED0D1445F714BE2AD7F6D8985 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CC48253334514832188A1887B0B54 /* ASImageEditor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		13B7010EB95398250E59C8EA86BF8CD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29B634F7BF7A52D9AEC307B4566DAA0 /* ASImageEditor.modulemap */,
+				B8F8A1E2E3ACADED88156DEBF3E28A1F /* ASImageEditor.xcconfig */,
+				F48AE1A25D1260E7840BBD7426ABC1E2 /* ASImageEditor-dummy.m */,
+				89E9FE91F5551C628F6FE8EFBE9629C9 /* ASImageEditor-prefix.pch */,
+				0AAA8DF3BC0454403EEC1FC3FD047E86 /* ASImageEditor-umbrella.h */,
+				2846E2DDD5A916E3FBBA0F06C6A2E288 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASImageEditor";
+			sourceTree = "<group>";
+		};
 		2F9AECE61611397484E6A2DB6783B736 /* Pods-ASImageEditor_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,47 +166,25 @@
 			path = "Target Support Files/Pods-ASImageEditor_Tests";
 			sourceTree = "<group>";
 		};
-		54D5193D8BCD4C366ABD21A3EB374346 /* ASImageEditor */ = {
+		6D681E83DD4C2C915985A7211E389589 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7B9A0A595645C9027FED570A11D21745 /* ReplaceMe.swift */,
-				AF85EA225881DC0F4C75D8EDF65A2A66 /* Support Files */,
+				AB113453253D010DD8D18760A9CD292F /* ASImageCropperViewController.swift */,
+				A29557051C0FD74BF1CE9F060B028C19 /* ASImageCropperViewController.xib */,
 			);
-			name = ASImageEditor;
-			path = ../..;
+			name = ViewControllers;
+			path = ASImageEditor/Classes/ViewControllers;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A6D8C8E23B1938ECFF5BC590B4F51386 /* Development Pods */,
+				0F91792ED0D1445F714BE2AD7F6D8985 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3387F603BE22BDC298CD973F3A403FB9 /* Products */,
 				EB93DB0B78AF0AC5C294AFBD30CCB505 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A6D8C8E23B1938ECFF5BC590B4F51386 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54D5193D8BCD4C366ABD21A3EB374346 /* ASImageEditor */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AF85EA225881DC0F4C75D8EDF65A2A66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				63E2C97A1CA1AB263A481B5C3E98351B /* ASImageEditor.modulemap */,
-				5E665C8E4C6524A0BE18620E76909CD0 /* ASImageEditor.xcconfig */,
-				49DE1FDB75931840A04F39749AE95025 /* ASImageEditor-dummy.m */,
-				AFF97E75AFEA3CEBACD5BF6192BAF50C /* ASImageEditor-prefix.pch */,
-				7BAF2B2DB622FFE32717D1E56DCEB3C8 /* ASImageEditor-umbrella.h */,
-				5511D34D2139B2CB25A5338A6351A0B6 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ASImageEditor";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -189,12 +195,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CECFD99A553C0EB08EBEAB3986349BCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A848FECF0842880D71D1F574DA011FD /* CropCornerView.swift */,
+			);
+			name = Views;
+			path = ASImageEditor/Classes/Views;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8618560AA6D220A5B966CE1D94AF9C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				541491737D01EFB62B6DCC4347981FDD /* UIImage.swift */,
+			);
+			name = Extensions;
+			path = ASImageEditor/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		DE2CC48253334514832188A1887B0B54 /* ASImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				D8618560AA6D220A5B966CE1D94AF9C2 /* Extensions */,
+				13B7010EB95398250E59C8EA86BF8CD5 /* Support Files */,
+				6D681E83DD4C2C915985A7211E389589 /* ViewControllers */,
+				CECFD99A553C0EB08EBEAB3986349BCC /* Views */,
+			);
+			name = ASImageEditor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EB93DB0B78AF0AC5C294AFBD30CCB505 /* Targets Support Files */ = {
@@ -217,11 +253,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70A831D59988C72189BAF719BFAEE262 /* Headers */ = {
+		825E9AA0F3844373C52C3D0BA8A1AD72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F258B96D7951DB70A466F3238309E7FD /* ASImageEditor-umbrella.h in Headers */,
+				4AE72AE14418234711BBFBBC7EB356BA /* ASImageEditor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,23 +290,6 @@
 			productReference = BB0C0CE229CB2EEB42721AF1346A3CCB /* Pods_ASImageEditor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		89940B5348F524E645723EC767005AB3 /* ASImageEditor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DD88DACA5FBC00FE994262245506FF4 /* Build configuration list for PBXNativeTarget "ASImageEditor" */;
-			buildPhases = (
-				C3E28B7D70051164BCB00532A596381E /* Sources */,
-				567725FB8DE215D01C6A93DF20872175 /* Frameworks */,
-				70A831D59988C72189BAF719BFAEE262 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ASImageEditor;
-			productName = ASImageEditor;
-			productReference = 03015C72EBB3FF9D651683C60809872D /* ASImageEditor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C91F50369BB86F6BB11DB1EC5AF5B8C2 /* Pods-ASImageEditor_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2E553DEB4EA60B57D6220CFA9210D2 /* Build configuration list for PBXNativeTarget "Pods-ASImageEditor_Tests" */;
@@ -286,6 +305,23 @@
 			name = "Pods-ASImageEditor_Tests";
 			productName = "Pods-ASImageEditor_Tests";
 			productReference = 3C9D0FD63C0DC1CAFB6FE838E04B8A19 /* Pods_ASImageEditor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9BA3913FE69AB1283641D1A711424B0 /* ASImageEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EA0AF892CC6B131CB5E28583941416 /* Build configuration list for PBXNativeTarget "ASImageEditor" */;
+			buildPhases = (
+				6C292536927E494A7D424D19BED26F53 /* Sources */,
+				2A375CCCC9E2E5069B01688FD5D2FAEC /* Frameworks */,
+				825E9AA0F3844373C52C3D0BA8A1AD72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASImageEditor;
+			productName = ASImageEditor;
+			productReference = 03015C72EBB3FF9D651683C60809872D /* ASImageEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +345,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89940B5348F524E645723EC767005AB3 /* ASImageEditor */,
+				F9BA3913FE69AB1283641D1A711424B0 /* ASImageEditor */,
 				87B040BCC7828D7FB0D1772A8A07CE4D /* Pods-ASImageEditor_Example */,
 				C91F50369BB86F6BB11DB1EC5AF5B8C2 /* Pods-ASImageEditor_Tests */,
 			);
@@ -317,12 +353,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3E28B7D70051164BCB00532A596381E /* Sources */ = {
+		6C292536927E494A7D424D19BED26F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD9F2EF2B951FC8B6FF677C562782C8 /* ASImageEditor-dummy.m in Sources */,
-				33633008C296EECBE380700C8DFD4A13 /* ReplaceMe.swift in Sources */,
+				407AB68223908A343363841A0D404496 /* ASImageCropperViewController.swift in Sources */,
+				697C98BC7B185F640E550970B3EDDF1D /* ASImageCropperViewController.xib in Sources */,
+				C69C40A919104FA200A391F325FFCCA7 /* ASImageEditor-dummy.m in Sources */,
+				1118A4213B453A554FD74574FAC41A6A /* CropCornerView.swift in Sources */,
+				5EC0E36EF34005A8471A71E5B19C09BC /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,44 +387,12 @@
 		EA110523EA48A9CE2DF991EAC0F8BED1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASImageEditor;
-			target = 89940B5348F524E645723EC767005AB3 /* ASImageEditor */;
+			target = F9BA3913FE69AB1283641D1A711424B0 /* ASImageEditor */;
 			targetProxy = 760DB24DFC64E82F91C7A9AAC61A3926 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19A4D3D5AE01E289868D0CDAD8E55DF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E665C8E4C6524A0BE18620E76909CD0 /* ASImageEditor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASImageEditor/ASImageEditor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASImageEditor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASImageEditor/ASImageEditor.modulemap";
-				PRODUCT_NAME = ASImageEditor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -472,6 +479,38 @@
 				PRODUCT_NAME = Pods_ASImageEditor_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C555389E32101B4247457CA02FC3A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F8A1E2E3ACADED88156DEBF3E28A1F /* ASImageEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASImageEditor/ASImageEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASImageEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASImageEditor/ASImageEditor.modulemap";
+				PRODUCT_NAME = ASImageEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -634,9 +673,9 @@
 			};
 			name = Release;
 		};
-		C3C423682F09106C897AE3FEA4D5E599 /* Debug */ = {
+		F91063D5FB29797383A01E1898CFE934 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E665C8E4C6524A0BE18620E76909CD0 /* ASImageEditor.xcconfig */;
+			baseConfigurationReference = B8F8A1E2E3ACADED88156DEBF3E28A1F /* ASImageEditor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,7 +689,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ASImageEditor/ASImageEditor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASImageEditor/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ASImageEditor/ASImageEditor.modulemap";
 				PRODUCT_NAME = ASImageEditor;
@@ -686,11 +725,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DD88DACA5FBC00FE994262245506FF4 /* Build configuration list for PBXNativeTarget "ASImageEditor" */ = {
+		73EA0AF892CC6B131CB5E28583941416 /* Build configuration list for PBXNativeTarget "ASImageEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3C423682F09106C897AE3FEA4D5E599 /* Debug */,
-				19A4D3D5AE01E289868D0CDAD8E55DF8 /* Release */,
+				F91063D5FB29797383A01E1898CFE934 /* Debug */,
+				3C555389E32101B4247457CA02FC3A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

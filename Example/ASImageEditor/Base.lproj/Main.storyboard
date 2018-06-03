@@ -1,30 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sO6-RN-GJZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Image Editor View Controller-->
+        <scene sceneID="p3i-p2-eJb">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ASImageEditor_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="sO6-RN-GJZ" customClass="ASImageEditorViewController" customModule="ASImageEditor_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KHu-cc-sfU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="722-I4-rlT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="566"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw5-eg-rqv">
+                                <rect key="frame" x="151" y="607" width="73" height="30"/>
+                                <state key="normal" title="Edit Image"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="sO6-RN-GJZ" eventType="touchUpInside" id="VBF-MH-BdF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ca4-7S-MdP" firstAttribute="trailing" secondItem="722-I4-rlT" secondAttribute="trailing" id="2UD-gd-Heu"/>
+                            <constraint firstItem="hw5-eg-rqv" firstAttribute="centerX" secondItem="KHu-cc-sfU" secondAttribute="centerX" id="6Gj-QQ-kJZ"/>
+                            <constraint firstItem="ca4-7S-MdP" firstAttribute="bottom" secondItem="hw5-eg-rqv" secondAttribute="bottom" constant="30" id="ZAR-fC-PMn"/>
+                            <constraint firstItem="722-I4-rlT" firstAttribute="top" secondItem="ca4-7S-MdP" secondAttribute="top" id="hQJ-4v-bTT"/>
+                            <constraint firstItem="hw5-eg-rqv" firstAttribute="top" secondItem="722-I4-rlT" secondAttribute="bottom" constant="21" id="l4M-7O-HPg"/>
+                            <constraint firstItem="722-I4-rlT" firstAttribute="leading" secondItem="ca4-7S-MdP" secondAttribute="leading" id="mQh-cl-OWa"/>
+                            <constraint firstItem="722-I4-rlT" firstAttribute="top" secondItem="ca4-7S-MdP" secondAttribute="top" id="s7x-Y7-YI0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ca4-7S-MdP"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="722-I4-rlT" id="0nY-rx-I9A"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmP-BZ-9PG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-735.20000000000005" y="30.134932533733135"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cat" width="3000" height="1500"/>
+    </resources>
 </document>
