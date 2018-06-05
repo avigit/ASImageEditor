@@ -174,6 +174,20 @@ public class ASImageCropperViewController: UIViewController {
         view.bringSubview(toFront: corner4)
     }
     
+    private func enableAllCorners() {
+        corner1.isUserInteractionEnabled = true
+        corner2.isUserInteractionEnabled = true
+        corner3.isUserInteractionEnabled = true
+        corner4.isUserInteractionEnabled = true
+    }
+    
+    private func disableCorners(exclude corner: CropCornerView) {
+        corner1.isUserInteractionEnabled = corner1 == corner
+        corner2.isUserInteractionEnabled = corner2 == corner
+        corner3.isUserInteractionEnabled = corner3 == corner
+        corner4.isUserInteractionEnabled = corner4 == corner
+    }
+    
     @IBAction func corner1DragAction(_ gestureRecognizer: UIPanGestureRecognizer) {
         guard gestureRecognizer.view != nil else {return}
         
@@ -182,6 +196,7 @@ public class ASImageCropperViewController: UIViewController {
         switch gestureRecognizer.state {
         case .began:
             initialCenter = corner1.center
+            disableCorners(exclude: corner1)
             
         case .changed:
             var newCenter = CGPoint(x: max(imageAspectRectOnView.origin.x, initialCenter.x + translation.x), y: max(imageAspectRectOnView.origin.y, initialCenter.y + translation.y))
@@ -202,6 +217,9 @@ public class ASImageCropperViewController: UIViewController {
             corner3.center = CGPoint(x: newCenter.x, y: corner3.center.y)
             updateOverlay()
             
+        case .cancelled, .ended:
+            enableAllCorners()
+            
         default:
             break
         }
@@ -213,6 +231,7 @@ public class ASImageCropperViewController: UIViewController {
         switch gestureRecognizer.state {
         case .began:
             initialCenter = corner2.center
+            disableCorners(exclude: corner2)
             
         case .changed:
             var newCenter = CGPoint(x: min(imageAspectRectOnView.maxX, initialCenter.x + translation.x), y: max(imageAspectRectOnView.origin.y, initialCenter.y + translation.y))
@@ -233,6 +252,9 @@ public class ASImageCropperViewController: UIViewController {
             corner4.center = CGPoint(x: newCenter.x, y: corner4.center.y)
             updateOverlay()
             
+        case .cancelled, .ended:
+            enableAllCorners()
+            
         default:
             break
         }
@@ -244,6 +266,7 @@ public class ASImageCropperViewController: UIViewController {
         switch gestureRecognizer.state {
         case .began:
             initialCenter = corner3.center
+            disableCorners(exclude: corner3)
             
         case .changed:
             var newCenter = CGPoint(x: max(imageAspectRectOnView.origin.x, initialCenter.x + translation.x), y: min(imageAspectRectOnView.maxY, initialCenter.y + translation.y))
@@ -264,6 +287,9 @@ public class ASImageCropperViewController: UIViewController {
             corner4.center = CGPoint(x: corner4.center.x, y: newCenter.y)
             updateOverlay()
             
+        case .cancelled, .ended:
+            enableAllCorners()
+            
         default:
             break
         }
@@ -278,6 +304,7 @@ public class ASImageCropperViewController: UIViewController {
         switch gestureRecognizer.state {
         case .began:
             initialCenter = corner4.center
+            disableCorners(exclude: corner4)
             
         case .changed:
             var newCenter = CGPoint(x: min(imageAspectRectOnView.maxX, initialCenter.x + translation.x), y: min(imageAspectRectOnView.maxY, initialCenter.y + translation.y))
@@ -297,6 +324,9 @@ public class ASImageCropperViewController: UIViewController {
             corner2.center = CGPoint(x: newCenter.x, y: corner2.center.y)
             corner3.center = CGPoint(x: corner3.center.x, y: newCenter.y)
             updateOverlay()
+            
+        case .cancelled, .ended:
+            enableAllCorners()
             
         default:
             break

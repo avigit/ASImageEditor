@@ -1,6 +1,6 @@
 {
   "name": "ASImageEditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "Image editor for iOS",
   "description": "This library provides the ability to crop a given image.",
   "homepage": "https://github.com/avigit/ASImageEditor.git",
